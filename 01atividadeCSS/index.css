@@ -1,0 +1,242 @@
+* {
+    padding: 0%;
+    margin: 0px;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    background-color: rgb(11, 9, 24);
+    color: rgb(116, 101, 218);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+}
+
+.textoHeader h1 {
+    text-align: left;
+    margin-bottom: 40px;
+    text-decoration: underline overline 15px;
+}
+
+.textoHeader p {
+    width: 30vw;
+    background-color: rgba(26, 25, 25, 0.654);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.headerImgs img {
+    width: 15vw;
+    height: 40vh;
+    border-radius: 30px;
+    padding-left: 700px;
+}
+
+.indice ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: larger;
+    display: flex;
+    margin-bottom: 30px;
+    border: 6px solid rgb(116, 101, 218);
+}
+
+.indice button {
+    border-style: solid;
+    font-size: medium;
+    padding: 8px;
+    height: 50px;
+    color: violet;
+    background-color: rgb(25, 21, 52);
+}
+
+.indice button:hover {
+    background-color: rgb(10, 5, 27);
+    color: beige;
+}
+
+main img {
+    width: 100px;
+    height: 40px;
+}
+
+h2 {
+    background-color: black;
+    color: rgb(51, 43, 104);
+    padding: 30px;
+    text-decoration: overline underline 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1.4px;
+}
+
+h2:hover {
+    color: rgb(77, 71, 118);
+}
+
+h3 {
+    background-color: rgb(0, 0, 0);
+    text-decoration: underline;
+    padding: 16px;
+    padding-left: 80px;
+    letter-spacing: 1.1px;
+
+}
+
+h3:hover {
+    color: rgb(77, 71, 118);
+}
+
+h4 {
+    background-color: rgb(0, 0, 0);
+    text-decoration: underline;
+    padding: 16px;
+    padding-left: 80px;
+    letter-spacing: 1.1px;
+
+}
+
+h4:hover {
+    color: rgb(77, 71, 118);
+}
+
+#surgimento ul {
+    background-color: rgb(22, 6, 45);
+    color: beige;
+    margin: 5px 20px 5px 20px;
+    list-style-type: none;
+    padding: 0px 20px 10px 20px;
+}
+
+#surgimento li {
+    display: flex;
+    padding: 19px;
+}
+
+#surgimento p {
+    width: 500px;
+    background-color: rgb(22, 6, 45);
+    padding: 10px;
+}
+
+#surgimento img {
+    width: 800px;
+    height: 390px;
+    border-radius: 5px;
+}
+
+#ideais ul {
+    background-color: rgb(22, 6, 45);
+    color: beige;
+    margin: 0px 20px 10px 20px;
+    list-style-type: none;
+    padding: 0px 20px 0px 20px;
+}
+
+#ideais li {
+    margin: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}
+
+
+#ideais ul span {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+#filosofia ul {
+    background-color: rgb(22, 6, 45);
+    color: beige;
+    margin: 0px 90px 10px 90px;
+    list-style-type: none;
+    padding: 0px 20px 0px 20px;
+}
+
+#filosofia li {
+    display: flex;
+    padding: 10px 20px 10px 30px;
+}
+
+#filosofia p {
+    padding: 70px 10px 40px 10px;
+}
+
+.filosofos {
+    padding: 10px 40px 10px 40px;
+    height: 200px;
+    width: 150px;
+}
+
+#expansao ul {
+    background-color: rgb(22, 6, 45);
+    color: beige;
+    margin: 0px 20px 10px 20px;
+    list-style-type: none;
+    padding: 0px 20px 0px 20px;
+}
+
+#expansao li {
+    margin: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#expansao p {
+    background-color: rgb(22, 6, 45);
+    padding: 10px;
+    line-height: 25px;
+}
+
+#brasil ul {
+    background-color: rgb(22, 6, 45);
+    color: beige;
+    margin: 0px 20px 10px 20px;
+    list-style-type: none;
+    padding: 0px 20px 0px 20px;
+}
+
+#brasil li {
+    margin: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+}
+
+#brasil p {
+    background-color: rgb(22, 6, 45);
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.brasilp2 {
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: larger;
+
+}
+
+
+#brasil img {
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    justify-content: end;
+}
+
+.pFinal p {
+    background-color: rgba(6, 5, 5, 0.692);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    border-top: 50px solid black;
+    text-align: center;
+    padding: 10px;
+}
